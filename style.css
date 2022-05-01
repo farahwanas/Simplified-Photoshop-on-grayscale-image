@@ -1,0 +1,36 @@
+
+
+  .column {
+    float: left;
+    padding: 5px;
+  }
+  
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  .name{
+    color: aqua;
+  }
+
+  .id{
+    color:crimson;
+  }
+  
+  .tutorialno{
+    color: blueviolet;
+  }
+
+  h1{
+    text-align: center;
+  }
+
+
+/*
+  <div style="text-align:center;"> 
+    <h1> <span style="color: brown">Farah Wanas </span> <span style="color: rgb(50, 42, 165)">49-0935</span> <span style="color: rgb(165, 42, 134)">T-15</span> <span style="color: brown"> 
+   Ayten Mazen </span> <span style="color: rgb(50, 42, 165)">49-0442</span> <span style="color: rgb(165, 42, 134)">T-15</span> </h1>
+    </div>*
+    /
